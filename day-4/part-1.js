@@ -18,8 +18,6 @@ const main = async () => {
   for await (const line of wordSearch) {
     const lineLetters = line.split('');
     letterGrid.push(lineLetters);
-
-    // console.log(JSON.stringify(lineLetters));
   }
 
   for (let i = 0; i < letterGrid.length; i++) {
